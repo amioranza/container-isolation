@@ -7,6 +7,6 @@ LABEL description="Perturbalino container"
 
 WORKDIR /
 
-COPY pertubalino /perturbalino
+COPY perturbalino /perturbalino
 
 ENTRYPOINT [ "/perturbalino" ]
