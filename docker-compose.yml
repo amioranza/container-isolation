@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  zeh:
+    image: amioranza/zeh:0.1
+    restart: on-failure
+
+  estorvaldo:
+    image: amioranza/estorvaldo:0.1
+    restart: on-failure
+
+  incomodencio:
+    image: amioranza/incomodencio:0.1
+    restart: on-failure
+
+  perturbalino:
+    image: amioranza/perturbalino:0.1
+    restart: on-failure
